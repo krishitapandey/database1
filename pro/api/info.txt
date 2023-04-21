@@ -1,0 +1,3 @@
+allows the  webpages to communication with each other 
+application programming interface 
+//use json for working with file 

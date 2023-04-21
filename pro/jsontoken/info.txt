@@ -1,0 +1,4 @@
+json -javascript object notation
+format for storing and transporting data 
+json is often used when data is sent from a server to a web page 
+ 

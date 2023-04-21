@@ -1,0 +1,4 @@
+-to access the webpage of a website then we need web server
+-handles the http requests asynchronously
+
+asynchronous = can start new work without competing another work

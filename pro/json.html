@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON </title>
+</head>
+<h1>hello krishita </h1>
+<body>
+
+    <script>
+
+
+        let jsonObject ={
+            name:"krishita pandey",
+            age :"19", 
+            hobbies:"nthng"
+        }
+        //converting the json object into a string 
+        let string = JSON.stringify(jsonObject);
+        console.log(string );
+
+        //replacing the name 
+        string = string.replace("krishita pandey", "kpandey")
+        console.log(string );
+
+        // //converting string into object 
+        newjsonObject =JSON.parse(string);
+        console.log(newjsonObject);
+
+
+    </script>
+    
+</body>
+</html>
